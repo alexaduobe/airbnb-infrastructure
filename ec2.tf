@@ -4,6 +4,6 @@ resource "aws_instance" "web" {
   instance_type = var.INSTANCE_TYPE
 
   tags = {
-    Name = "airbnd-web-server"
+    Name = "airbnb-web-server"
   }
 }
